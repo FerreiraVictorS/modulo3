@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
+    background-color: black; /* Sempre coloque uma cor de fundo, mesmo quandor houver uma imagem de fundo */
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover; /* O cover vai fazer a imagem ocupar toda a tela, entretanto não será 100% dela */
+    /*
+    background-size: contain; mostra 100% da imagem, porém mostra os espaços em branco caso haja
+    background-size: 100% 100%; força a imagem a ocupar 100% da tela na altura e largura, distorcendo a imagem
+    */
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
