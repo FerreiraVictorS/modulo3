@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh; /* Aqui o vh significa viewport height, ou seja, o a porcentagem da visualização de um bloco */
+    border: 1px dashed black;
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
