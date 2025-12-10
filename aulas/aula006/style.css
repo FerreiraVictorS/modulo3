@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-image: url('imagens/target001.png');
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Faz com que a imagem de fundo fique 100% na box, sem cortes, ou repetições. */
+    height: 94vh;
+    margin: 25px;
+    padding: 15px;
+
+    position: relative; /* Toda box por padrão é relative. Sempre que uma box agregar algum conteúdo, deixa-a sendo uma position: relative; desta forma ela está sendo relativa ao tamanho da janela em que se encontra aberta. */
+}
+
+#conteudo{
+    background-image: url('imagens/target001.png');
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 400px;
+
+    position: absolute; /* Uma box absolute significa que ela é absoluta sobre uma box predominante que já é relativa a página do site, ou seja, sempre respoderá aos estimulos da outra box sem sair de seus limites, a borda. */
+
+    top: 50%; /* A partir do topo da box predominante, 50% da altura dela, podendo ser positiva ou negativa. */
+    left: 50%; /* A partir da esquerda da box predominate, anda 50% da largura dela. */
+    /* OBS.: Dessa forma, o eixo de referencia da box sempre vai ser o canto superior esquedo. */
+
+    transform: translate(-50%, -50%); /* Movimenta a box a partir do seu eixo de refêrencia, ou seja, o canto superior esquerdo. */
+}

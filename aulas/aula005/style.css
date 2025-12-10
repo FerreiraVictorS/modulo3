@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
+    /*
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; Faz com que a imagem de fundo não se mova ao rolar a página */
+
+    /* Shorthand - background
+        color -> image -> position -> repeat -> [size] -> attachment
+        OBS.: O size não está funcionando na shorthand.*/
+
+    background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
