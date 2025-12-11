@@ -22,8 +22,8 @@
 
 :root{
     --fonte1: 'Arial', sans-serif;
-    --fonte2: 'Passion One', sans-serif;
-    --fonte3: 'Sriracha', sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
 }
 
 header{
@@ -51,4 +51,13 @@ header a{
 
 header a:hover{
     text-decoration: underline;
+}
+
+main p{
+    font-family: var(--fonte3);
+    width: 450px;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 50px;
 }
