@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+/* Ainda não sei fazer o efeito parallax nas imagens, vou esperar pelo vídeo do professor. */
+/* Perguntei ao chat, não acredito que é só deixar a imagem fixa, kkkkk. Muito bom! */
+/* Me embananei na responsividade, não sei o que fazer... Vou esperar para ver o vídeo do professor. */
+
 *{
     margin: 0;
     padding: 0;
@@ -31,6 +35,10 @@ header{
     color: white;
     height: 350px;
     text-align: center;
+
+    width: 100%;
+    min-width: 280px;
+    max-width: 100%;
 }
 
 header h1{
@@ -55,9 +63,76 @@ header a:hover{
 
 main p{
     font-family: var(--fonte3);
-    width: 450px;
-    font-size: 25px;
-    text-align: justify;
+    width: 800px;
+    font-size: 55px;
     margin-left: 50px;
     margin-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2.2em;
+}
+.p1{
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.342);
+    padding-bottom: 250px;
+}
+.p2{
+    background-color: bisque;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    margin-top: -50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.p2 p{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding-left: 25px;
+    color: white;
+}
+
+.p3 p{
+    margin-bottom: 150px;
+}
+
+.p4{
+    background-color: bisque;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    margin-top: -50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.p4 p{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding-left: 25px;
+    color: white;
+}
+
+.p5 p{
+    margin-bottom: 150px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    transition-duration: 1s;
+    border-radius: 5px;
 }
