@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.sriracha-regular {
+  font-family: "Sriracha", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte1: 'Arial', sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte2);
+    font-size: bold;
+    font-size: 9em;
+    padding-top: 50px;
+    margin: 0px;
+
+    /* text-transform: uppercase; Faz com que as letras fiquem todas maisculas e etc. */
+    font-variant: small-caps;
+}
+
+header p{
+    font-size: 1.2em;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh; /* Bascimente 10% de aultura em relação ao tamanho do site. */
+    padding-bottom: 10vh;
+}
+
+main p{
+    font-family: var(--fonte3);
+    padding-left: 30px;
+    width: 800px;
+    font-size: 55px;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+.p1{
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.342);
+}
+.p2{
+    background-color: bisque;
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    margin-top: -50px;
+}
+
+.p2 p{
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+}
+
+.p3{
+    background-color: white;
+}
+
+.p4{
+    background-color: bisque;
+    background-image: url(../imagens/background002.jpg);
+    background-attachment: fixed;
+}
+
+.p4 p{
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+}
+
+.p5{
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
