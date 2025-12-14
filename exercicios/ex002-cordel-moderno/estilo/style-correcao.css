@@ -95,6 +95,9 @@ main p{
     background-image: url(../imagens/background001.jpg);
     background-attachment: fixed;
     margin-top: -50px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0px 8px 25px rgba(0, 0, 0, 0.37);
 }
 
 .p2 p{
@@ -110,6 +113,8 @@ main p{
     background-color: bisque;
     background-image: url(../imagens/background002.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 8px 25px rgba(0, 0, 0, 0.37);
 }
 
 .p4 p{
@@ -127,7 +132,7 @@ footer{
     text-align: center;
     padding: 10px;
     font-family: var(--fonte1);
-    font-size: 1.2em;
+    font-size: 2vw;
 }
 
 footer a{
