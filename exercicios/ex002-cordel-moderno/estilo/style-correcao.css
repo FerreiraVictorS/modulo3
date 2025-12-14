@@ -2,14 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 .passion-one-regular {
-  font-family: "Passion One", sans-serif;
+  font-family: "Passion One", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 .sriracha-regular {
-  font-family: "Sriracha", sans-serif;
+  font-family: "Sriracha", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -28,6 +28,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{
@@ -39,7 +40,7 @@ header{
 header h1{
     font-family: var(--fonte2);
     font-size: bold;
-    font-size: 9em;
+    font-size: 10vw; /* Responsividade para que o tamanho da fonte fica confortável para o cliente que acessar o site. */
     padding-top: 50px;
     margin: 0px;
 
@@ -56,26 +57,33 @@ header p{
 header a{
     color: white;
     text-decoration: none;
+    transition: 1s;
 }
 
 header a:hover{
-    text-decoration: underline;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    transition-duration: 1s;
+    border-radius: 5px;
 }
 
 section{
     padding-top: 10vh; /* Bascimente 10% de aultura em relação ao tamanho do site. */
     padding-bottom: 10vh;
+    font-size: 3.5vw;
 }
 
 main p{
     font-family: var(--fonte3);
-    padding-left: 30px;
-    width: 800px;
-    font-size: 55px;
+    padding: 30px 30px 30px 10px;
     margin-left: 50px;
     font-style: italic;
     font-weight: bolder;
     line-height: 2em;
+    /* width: 800px; Ao invês de travar a caixa em uma comprimento definito, pode transformar a caixa da tag <p> em uma inline-block para que ela sempre acompanhe o conteúdo. */
+    display: inline-block;
+
 }
 
 .p1{
