@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{ /* tabela */
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr.linha{ /* linha */
+    background-color: lightgray;
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+td.dado{
+    background-color: yellow;
+}
+
+/* Basicamente, o CSS acima estiliza uma tabela HTML, definindo propriedades para a tabela, linhas e células, incluindo cores de fundo, bordas e espaçamento. */
