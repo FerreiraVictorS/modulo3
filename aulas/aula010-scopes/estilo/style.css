@@ -3,6 +3,7 @@
 table {
     width: 400px;
     border-collapse: collapse;
+    position: relative; /* Tem que ser relative para que o cabeçalho fique fixo ao rolar a página */
 }
 
 caption {
@@ -14,6 +15,12 @@ caption {
 
 tbody tr:nth-child(even) { /* ou pode colocar ao invês de even 2n */
     background-color: lightgray;
+}
+
+thead{
+    position: sticky; /* Fixa o cabeçalho na parte superior ao rolar a página; tem que estar dentro de uma posição relative */
+    top: 0; /* Define a posição do cabeçalho fixo, no caso, no topo da página */
+    background-color: gray; /* Define a cor de fundo do cabeçalho fixo, caso contrário, irá deslocar apenas as palavras */
 }
 
 th {
