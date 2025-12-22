@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 10px;
+}
+
+th, td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.filmes {
+    width: 300px;
+    background-color: crimson;
+    color: white;    
+}
+
+.nomes {
+    width: 200px;
+    background-color: crimson;
+    color: white;
+}
+
+.grupo {
+    width: 100px;
+    background-color: crimson;
+    color: white;    
+}
